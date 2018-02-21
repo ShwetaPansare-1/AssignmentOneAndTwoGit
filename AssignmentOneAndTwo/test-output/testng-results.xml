@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="39814" started-at="2018-02-21T06:44:08Z" finished-at="2018-02-21T06:44:48Z">
+    <groups>
+    </groups>
+    <test name="Test2" duration-ms="35563" started-at="2018-02-21T06:44:08Z" finished-at="2018-02-21T06:44:44Z">
+      <class name="assigment.assignment2.Test1.FlightSearchTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:assigment.assignment2.Test1.FlightSearchTest@6a41eaa2]" name="setUp" is-config="true" duration-ms="9" started-at="2018-02-21T12:14:08Z" finished-at="2018-02-21T12:14:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:assigment.assignment2.Test1.FlightSearchTest@6a41eaa2]" name="beforeTest" is-config="true" duration-ms="4019" started-at="2018-02-21T12:14:08Z" finished-at="2018-02-21T12:14:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="navigate()[pri:0, instance:assigment.assignment2.Test1.FlightSearchTest@6a41eaa2]" name="navigate" duration-ms="8636" started-at="2018-02-21T12:14:12Z" finished-at="2018-02-21T12:14:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigate -->
+        <test-method status="PASS" signature="searchForFlights()[pri:1, instance:assigment.assignment2.Test1.FlightSearchTest@6a41eaa2]" name="searchForFlights" duration-ms="15033" started-at="2018-02-21T12:14:21Z" finished-at="2018-02-21T12:14:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchForFlights -->
+        <test-method status="PASS" signature="validateResult()[pri:2, instance:assigment.assignment2.Test1.FlightSearchTest@6a41eaa2]" name="validateResult" duration-ms="7090" started-at="2018-02-21T12:14:36Z" finished-at="2018-02-21T12:14:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateResult -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:assigment.assignment2.Test1.FlightSearchTest@6a41eaa2]" name="closeBrowser" is-config="true" duration-ms="758" started-at="2018-02-21T12:14:43Z" finished-at="2018-02-21T12:14:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- assigment.assignment2.Test1.FlightSearchTest -->
+    </test> <!-- Test2 -->
+    <test name="Test1" duration-ms="39814" started-at="2018-02-21T06:44:08Z" finished-at="2018-02-21T06:44:48Z">
+      <class name="assigment.assignment2.Test1.FlightSearchTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:assigment.assignment2.Test1.FlightSearchTest@59fa1d9b]" name="setUp" is-config="true" duration-ms="9" started-at="2018-02-21T12:14:08Z" finished-at="2018-02-21T12:14:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:assigment.assignment2.Test1.FlightSearchTest@59fa1d9b]" name="beforeTest" is-config="true" duration-ms="3105" started-at="2018-02-21T12:14:08Z" finished-at="2018-02-21T12:14:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ie]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="navigate()[pri:0, instance:assigment.assignment2.Test1.FlightSearchTest@59fa1d9b]" name="navigate" duration-ms="53" started-at="2018-02-21T12:14:11Z" finished-at="2018-02-21T12:14:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigate -->
+        <test-method status="PASS" signature="searchForFlights()[pri:1, instance:assigment.assignment2.Test1.FlightSearchTest@59fa1d9b]" name="searchForFlights" duration-ms="30054" started-at="2018-02-21T12:14:11Z" finished-at="2018-02-21T12:14:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchForFlights -->
+        <test-method status="PASS" signature="validateResult()[pri:2, instance:assigment.assignment2.Test1.FlightSearchTest@59fa1d9b]" name="validateResult" duration-ms="6028" started-at="2018-02-21T12:14:41Z" finished-at="2018-02-21T12:14:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateResult -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:assigment.assignment2.Test1.FlightSearchTest@59fa1d9b]" name="closeBrowser" is-config="true" duration-ms="543" started-at="2018-02-21T12:14:47Z" finished-at="2018-02-21T12:14:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- assigment.assignment2.Test1.FlightSearchTest -->
+    </test> <!-- Test1 -->
+  </suite> <!-- Suite -->
+</testng-results>
