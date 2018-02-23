@@ -4,30 +4,12 @@
   <listeners>
     <listener class-name="assigment.assignment2.Test1.MyListeners"/>
   </listeners>
-  <test name="Test2(failed)" parallel="tests">
-    <parameter name="browser" value="chrome"/>
-    <classes>
-      <class name="assigment.assignment2.Test1.FlightSearchTest">
-        <methods>
-          <include name="validateResult"/>
-          <include name="setUp"/>
-          <include name="beforeTest"/>
-          <include name="setUp"/>
-          <include name="beforeTest"/>
-          <include name="searchForFlights"/>
-          <include name="navigate"/>
-        </methods>
-      </class> <!-- assigment.assignment2.Test1.FlightSearchTest -->
-    </classes>
-  </test> <!-- Test2(failed) -->
   <test name="Test1(failed)" parallel="tests">
     <parameter name="browser" value="ie"/>
     <classes>
       <class name="assigment.assignment2.Test1.FlightSearchTest">
         <methods>
           <include name="validateResult"/>
-          <include name="setUp"/>
-          <include name="beforeTest"/>
           <include name="setUp"/>
           <include name="beforeTest"/>
           <include name="searchForFlights"/>

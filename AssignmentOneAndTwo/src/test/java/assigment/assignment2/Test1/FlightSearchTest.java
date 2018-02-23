@@ -40,11 +40,11 @@ public class FlightSearchTest{
 	public void beforeTest(String browser) {
 	  
 		if(browser.equalsIgnoreCase("chrome")) {
-			System.setProperty("webdriver.chrome.driver", "C:\\Users\\shwetambari.pansare.INFOSTRETCH\\git\\Assignments1_Infostretch\\Assignment2\\Test1\\chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver", "C:\\Users\\shwetambari.pansare.INFOSTRETCH\\git\\AssignmentOneAndTwoGit\\AssignmentOneAndTwo\\chromedriver.exe");
 			driver = new ChromeDriver();
 			webDriverWait = new WebDriverWait(driver, 30);
 	    }else if (browser.equalsIgnoreCase("ie")) { 
-	    	System.setProperty("webdriver.ie.driver", "C:\\Users\\shwetambari.pansare.INFOSTRETCH\\git\\Assignments1_Infostretch\\Assignment2\\Test1\\IEDriverServer.exe");
+	    	System.setProperty("webdriver.ie.driver", "C:\\Users\\shwetambari.pansare.INFOSTRETCH\\git\\AssignmentOneAndTwoGit\\AssignmentOneAndTwo\\IEDriverServer.exe");
 	    	driver = new InternetExplorerDriver();
 	    	webDriverWait = new WebDriverWait(driver, 30);
 	  } 
